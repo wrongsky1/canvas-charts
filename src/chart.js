@@ -114,7 +114,7 @@ export function chart(root, data) {
 
                 for (const [x, y] of coords) {
                     if (isOver(proxy.mouse, x, coords.length, DPI_WIDTH)) {
-                        circle(ctx, [x, y], color);
+                        circle(ctx, [x, y], color, CIRCLE_RADIUS);
                         break;
                     }
                 }

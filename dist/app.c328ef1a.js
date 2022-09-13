@@ -612,7 +612,7 @@ function chart(root, data) {
               y = _step$value[1];
 
           if ((0, _utils.isOver)(proxy.mouse, x, coords.length, DPI_WIDTH)) {
-            (0, _utils.circle)(ctx, [x, y], color);
+            (0, _utils.circle)(ctx, [x, y], color, CIRCLE_RADIUS);
             break;
           }
         }
@@ -832,7 +832,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55082" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56561" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
