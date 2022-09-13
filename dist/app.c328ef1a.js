@@ -712,8 +712,8 @@ function getChartData() {
       x: "x"
     },
     names: {
-      y0: "#0",
-      y1: "#1"
+      y0: "Joined",
+      y1: "Left"
     },
     colors: {
       y0: "#3DC23F",
@@ -832,7 +832,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56561" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "57864" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

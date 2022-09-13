@@ -22,7 +22,9 @@ body {
 
 .card {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   border-radius: 4px;
   background: #fff;
   padding: 1rem;
